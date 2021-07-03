@@ -26,6 +26,7 @@ import 'package:flutterrestaurant/ui/contact/contact_us_view.dart';
 import 'package:flutterrestaurant/ui/common/dialog/confirm_dialog_view.dart';
 import 'package:flutterrestaurant/ui/create_reservation/entry/create_reservation_view.dart';
 import 'package:flutterrestaurant/ui/dashboard/home/home_dashboard_view.dart';
+import 'package:flutterrestaurant/ui/dashboard/home/reward.dart';
 import 'package:flutterrestaurant/ui/history/list/history_list_view.dart';
 import 'package:flutterrestaurant/ui/language/setting/language_setting_view.dart';
 import 'package:flutterrestaurant/ui/privacy_policy/privacy_policy_view.dart';
@@ -360,6 +361,17 @@ class _HomeViewState extends State<DashboardView>
                       index: PsConst.REQUEST_CODE__MENU_HOME_FRAGMENT,
                       onTap: (String title, int index) {
                         Navigator.pop(context);
+                        updateSelectedIndexWithAnimation(
+                            Utils.getString(context, 'app_name'), index);
+                      }),
+                      _DrawerMenuWidget(
+                      icon: Icons.emoji_events_outlined,
+                      title: 'Rewards',
+                      index: PsConst.REQUEST_CODE__MENU_HOME_FRAGMENT,
+                      onTap: (String title, int index) {
+                        Navigator.push(
+    context,
+    MaterialPageRoute(builder: (context) => RewardScreen()));
                         updateSelectedIndexWithAnimation(
                             Utils.getString(context, 'app_name'), index);
                       }),

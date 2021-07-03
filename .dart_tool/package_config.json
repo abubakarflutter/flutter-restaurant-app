@@ -134,6 +134,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "draggable_fab",
+      "rootUri": "file:///C:/src/flutter/flutter/.pub-cache/hosted/pub.dartlang.org/draggable_fab-0.1.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
+    },
+    {
       "name": "dynamic_theme",
       "rootUri": "../packages/dynamic_theme",
       "packageUri": "lib/",
@@ -310,6 +316,12 @@
     {
       "name": "flutter_paystack",
       "rootUri": "file:///C:/src/flutter/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_paystack-1.0.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "flutter_screenutil",
+      "rootUri": "file:///C:/src/flutter/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_screenutil-5.0.0+2",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -980,7 +992,7 @@
       "languageVersion": "2.2"
     }
   ],
-  "generated": "2021-06-30T18:05:19.048898Z",
+  "generated": "2021-07-02T14:35:51.328966Z",
   "generator": "pub",
   "generatorVersion": "2.13.3"
 }

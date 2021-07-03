@@ -155,6 +155,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "4.0.0"
+  draggable_fab:
+    dependency: "direct main"
+    description:
+      name: draggable_fab
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.1.1"
   dynamic_theme:
     dependency: "direct main"
     description:
@@ -361,6 +368,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.0.5"
+  flutter_screenutil:
+    dependency: "direct main"
+    description:
+      name: flutter_screenutil
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "5.0.0+2"
   flutter_speed_dial:
     dependency: "direct main"
     description:
@@ -369,7 +383,7 @@ packages:
     source: hosted
     version: "2.1.1"
   flutter_svg:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: flutter_svg
       url: "https://pub.dartlang.org"
